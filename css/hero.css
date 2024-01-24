@@ -1,0 +1,282 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-base);
+    font-weight: var(--fw-regular);
+    font-size: 0.875rem;
+}
+
+header {
+    padding-top: 16px;
+    background-color: #9b9fa0;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+
+    color: white;
+    background-color: #9b9fa0;
+}
+
+.ul-header  {
+    display: flex;
+    gap: 40px;
+    order: 2;
+
+    color: white;
+}
+
+.logo-name {
+    display: flex;
+    align-items: center;
+}
+
+nav ul a {
+    color: white;
+}
+
+.logo-type {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.container-1 {
+    height: 100svh;
+    background-color: #9b9fa0;
+    /* background-image: url(../Images/Transparent\ me.png); */
+    background-size: 75svh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0;
+    margin: 0;
+
+    /* border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px; */
+
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+}
+
+.middle-part {
+    padding-top: 20rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    line-height: 2.5rem;
+
+    margin: 0 0 2.5rem 2.5rem;
+    font-size: 2.2rem;
+}
+
+.hi {
+    font-weight: var(--fw-medium);
+}
+
+.philippines {
+    font-weight: var(--fw-extra-light);
+}
+
+.hero-text {
+    padding-top: 10rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    line-height: 2.5rem;
+
+    margin: 0 0 2.5rem 2.5rem;
+    font-size: 1.7rem;
+
+}
+
+.freelance {
+    font-weight: var(--fw-extra-light);
+}
+
+.container-2 {
+        height: 100svh;
+        background-size: 75svh;
+        padding: 0;
+        margin: 0;
+
+        display: flex;
+        align-items: center;
+}
+
+.blue-box {
+    height: 90%;
+    width: 40%;
+    background-color: #12CDFC;
+    margin-left: 2.5rem;
+    border-radius: 1rem;
+}
+
+.blue-box p {
+    color: white;
+    padding: 2rem 0 0 2rem;
+    font-size: 2rem;
+    line-height: 1rem;
+}
+
+.blue-box-light {
+    font-weight: var(--fw-extra-light);
+}
+
+.text-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logo {
+    margin: 0 2.5rem;
+}
+
+.logo-2 {
+    height: 50px;
+    width: 50px;
+}
+
+.button-explore-blue {
+    margin: 90% 0 0 2rem;
+
+}
+
+.button-blue {
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 32px;
+    font-weight: var(--fw-extra-light);
+    font-size: 1.1rem;
+}
+
+
+.gray-box {
+    height: 90%;
+    width: 60%;
+    background-color: #F3F2F2;
+    margin: 0 2.5rem 0 2.5rem;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.gray-box p {
+    padding: 2rem 0 0 2rem;
+    font-size: 2rem;
+    line-height: 1rem
+}
+
+.text-explore {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 2rem 3rem 0;
+}
+
+.product-design {
+    font-weight: var(--fw-medium);
+    color: #2C3233;
+}
+
+.packaging-text {
+    font-weight: var(--fw-extra-light);
+    color: #9B9FA0;
+}
+
+.button-gray {
+    background-color: #12CDFC;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 32px;
+    font-size: 1.1rem;
+}
+
+.container-3 {
+    height: 100svh;
+    padding: 0;
+    margin: 0;
+}
+
+.gray-call {
+    width: 100%;
+    height: 100%;
+    background-color: #F3F2F2;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-explore-1 {
+    display: flex;
+    align-items: flex-start;
+}
+
+.text-call {
+    display: flex;
+    gap: 2.5rem;
+    font-size: 7rem;
+    margin: 2rem 0 0 2rem;
+    color: #2C3233;
+}
+
+.lets {
+    font-weight: var(--fw-extra-light);
+}
+
+.kindly {
+    margin: 2rem;
+    font-size: 3rem;
+    font-weight: var(--fw-extra-light);
+    color: #2C3233;
+}
+
+.email-btn {
+    align-self: flex-end;
+    background-color: #12CDFC;
+    color: white;
+    height: 100px;
+    width: 300px;
+    border: none;
+    border-radius: 32px;
+    font-size: 1.1rem;
+
+    margin: 3rem 2rem 1rem 0;
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    align-self: flex-end;
+    width: 100%;
+    height: 15%;
+    background-color: #2C3233;
+    margin-top: 15rem;
+}
+
+.footer-text {
+    color: white;
+}
+
+
+
